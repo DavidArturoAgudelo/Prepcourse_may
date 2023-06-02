@@ -57,16 +57,12 @@ function saludo(idioma) {
    switch (idioma) {
       case "aleman":
             return "Guten Tag!";
-         break;
       case "mandarin":
             return "Ni Hao!";
-         break;
       case "ingles":
             return "Hello!";
-         break;
       default:
             return "Hola!";
-         break;
    }
 }
 
@@ -82,19 +78,14 @@ function colors(color) {
    switch (color) {
       case "blue":
             return "This is blue";
-         break;
       case "red":
             return "This is red";
-         break;
       case "green":
             return "This is green";
-         break;
       case "orange":
             return "This is orange";
-         break;
       default:
             return "Color not found"
-         break;
    }
 }
 
@@ -105,13 +96,10 @@ function esDiezOCinco(num) {
    switch (num) {
       case 10 || 5:
             return true;
-         break;
       case 5:
             return true;
-         break;
       default:
             return false;
-      break;
    }
 }
 
